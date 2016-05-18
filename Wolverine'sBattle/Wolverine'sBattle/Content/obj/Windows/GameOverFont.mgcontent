@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>G:/Wolverine'sBattle/Wolverine'sBattle/Content/GameOverFont.spritefont</SourceFile>
+  <SourceTime>2016-05-18T16:21:03.7564462+03:00</SourceTime>
+  <DestFile>G:/Wolverine'sBattle/Wolverine'sBattle/Content/bin/Windows/GameOverFont.xnb</DestFile>
+  <DestTime>2016-05-18T16:21:08.8098344+03:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2016-03-30T09:36:08+03:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2016-03-30T09:36:08+03:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
