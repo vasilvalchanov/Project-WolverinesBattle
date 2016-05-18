@@ -53,7 +53,7 @@
     <Compile Include="Models\Items\Poison.cs" />
     <Compile Include="Models\Items\RedBull.cs" />
     <Compile Include="Models\SpriteBase.cs" />
-    <Compile Include="UI\GameBaseEngine.cs" />
+    <Compile Include="Core\GameBaseEngine.cs" />
     <Compile Include="ProgramMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
