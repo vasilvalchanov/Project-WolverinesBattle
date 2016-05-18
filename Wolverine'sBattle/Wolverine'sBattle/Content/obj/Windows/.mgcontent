@@ -4,7 +4,7 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>G:/Wolverine'sBattle/Wolverine'sBattle/Content/HealthAndPointsFont.spritefont</File>
-    <File>G:/Wolverine'sBattle/Wolverine'sBattle/Content/GameOverFont.spritefont</File>
+    <File>G:/GitHub/Project-WolverinesBattle/Wolverine'sBattle/Wolverine'sBattle/Content/HealthAndPointsFont.spritefont</File>
+    <File>G:/GitHub/Project-WolverinesBattle/Wolverine'sBattle/Wolverine'sBattle/Content/GameOverFont.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>
