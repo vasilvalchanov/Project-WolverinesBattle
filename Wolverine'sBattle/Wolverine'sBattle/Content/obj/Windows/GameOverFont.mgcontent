@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>G:/GitHub/Project-WolverinesBattle/Wolverine'sBattle/Wolverine'sBattle/Content/GameOverFont.spritefont</SourceFile>
-  <SourceTime>2016-05-18T20:53:16.147662+03:00</SourceTime>
+  <SourceTime>2016-05-20T11:47:12.7933903+03:00</SourceTime>
   <DestFile>G:/GitHub/Project-WolverinesBattle/Wolverine'sBattle/Wolverine'sBattle/Content/bin/Windows/GameOverFont.xnb</DestFile>
-  <DestTime>2016-05-18T21:20:18.7819854+03:00</DestTime>
+  <DestTime>2016-05-20T11:47:25.8581827+03:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2016-03-30T09:36:08+03:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
