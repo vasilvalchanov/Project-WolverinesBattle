@@ -128,17 +128,18 @@ namespace Wolverine_sBattle_MyFirstRPGGame.Core
 
             if (this.player.Health > 0 && this.gameState == GameState.Paused && this.player.Points < 500)
             {
-                this.spriteBatch.DrawString(this.gameOverFont, "The goal of the game is to defeat enemies and to collect points", new Vector2(5, 80), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "If you reach score 500, you win. If your health is more than", new Vector2(5, 110), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "enemy health, you win the battle and collect points from enemy,", new Vector2(5, 140), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "otherwise you lose the battle and the game is over.", new Vector2(5, 170), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "Black Dragon: Health 100, Points 20", new Vector2(5, 200), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "Grey Dragon: Health 120, Points 25", new Vector2(5, 230), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "Apple - give you 10 health     Red Bull - give you 30 health", new Vector2(5, 260), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "Knife - take you 15 health     Poison - take you 50 health", new Vector2(5, 290), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "The poison and the knife cannot kill you, even if you have a few", new Vector2(5, 320), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "health points. They only reduce your health.", new Vector2(5, 350), Color.Black);
-                this.spriteBatch.DrawString(this.gameOverFont, "Key \"C\" - Continue, Key \"P\" - Pause, Key \"Enter\" Restart", new Vector2(5, 380), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "The goal of the game is to defeat enemies and to collect points", new Vector2(5, 70), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "If you reach score 500, you win. If your health is more than", new Vector2(5, 95), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "enemy health, you win the battle and collect points from enemy,", new Vector2(5, 120), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "otherwise you lose the battle and the game is over.", new Vector2(5, 145), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "Black Dragon: Health 100, Points 20", new Vector2(5, 170), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "Grey Dragon: Health 120, Points 25", new Vector2(5, 195), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "Soldier: Health 80, Points 15", new Vector2(5, 220), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "Apple - give you 10 health     Red Bull - give you 30 health", new Vector2(5, 245), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "Knife - take you 15 health     Poison - take you 50 health", new Vector2(5, 270), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "The poison and the knife cannot kill you, even if you have a few", new Vector2(5, 295), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "health points. They only reduce your health.", new Vector2(5, 320), Color.Black);
+                this.spriteBatch.DrawString(this.gameOverFont, "Key \"C\" - Continue, Key \"P\" - Pause, Key \"Enter\" Restart", new Vector2(5, 345), Color.Black);
             }
 
             this.spriteBatch.DrawString(this.healthFont, "Health: " + this.player.Health, new Vector2(1, 1), Color.Black);
